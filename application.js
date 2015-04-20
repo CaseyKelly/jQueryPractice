@@ -21,6 +21,10 @@ $(document).ready(function(){
     $("p").slideUp();
   });
 
-  
+  $("ul").click(function() {
+    $("li:nth-child(1)").css("color", "red")
+    $("li:nth-child(2)").css("color", "green")
+    $("li:nth-child(3)").css("color", "blue")
+  });
 
 });
