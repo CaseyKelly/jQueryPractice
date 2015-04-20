@@ -17,5 +17,10 @@ $(document).ready(function(){
     }
   });
 
+  $("button#up").click(function() {
+    $("p").slideUp();
+  });
+
   
+
 });
