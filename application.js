@@ -6,4 +6,8 @@ $(document).ready(function(){
   $("button#btn-bg").click(function() {
     $("body").toggleClass("bg")
   });
+
+  $("body").dblclick(function() {
+    alert( "DOUBLE CLICK!!!!" );
+  });
 });
