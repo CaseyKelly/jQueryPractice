@@ -10,4 +10,12 @@ $(document).ready(function(){
   $("body").dblclick(function() {
     alert( "DOUBLE CLICK!!!!" );
   });
+
+  $("img#hotdog").click(function() {
+    for (i = 0; i < 1000; i++) {
+      $(this).clone().insertAfter(this);
+    }
+  });
+
+  
 });
